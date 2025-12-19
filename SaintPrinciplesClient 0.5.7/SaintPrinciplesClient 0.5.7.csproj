@@ -1,0 +1,375 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<RootNamespace>SaintPrinciplesClient_0._5._7</RootNamespace>
+		<LangVersion>default</LangVersion>
+		<IsPackable>false</IsPackable>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<AssemblyName>SaintPrinciplesClient_0._5._7</AssemblyName>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Accessibility">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Accessibility.dll</HintPath>
+		</Reference>
+		<Reference Include="ACTk.Examples.Genuine.Runtime">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\ACTk.Examples.Genuine.Runtime.dll</HintPath>
+		</Reference>
+		<Reference Include="ACTk.Examples.Runtime">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\ACTk.Examples.Runtime.dll</HintPath>
+		</Reference>
+		<Reference Include="ACTk.Runtime">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\ACTk.Runtime.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp-firstpass">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+		</Reference>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="Boo.Lang.Compiler">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Boo.Lang.Compiler.dll</HintPath>
+		</Reference>
+		<Reference Include="Boo.Lang">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Boo.Lang.dll</HintPath>
+		</Reference>
+		<Reference Include="Boo.Lang.Extensions">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Boo.Lang.Extensions.dll</HintPath>
+		</Reference>
+		<Reference Include="Boo.Lang.Parser">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Boo.Lang.Parser.dll</HintPath>
+		</Reference>
+		<Reference Include="Boo.Lang.PatternMatching">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Boo.Lang.PatternMatching.dll</HintPath>
+		</Reference>
+		<Reference Include="Boo.Lang.Useful">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Boo.Lang.Useful.dll</HintPath>
+		</Reference>
+		<Reference Include="Commons.Xml.Relaxng">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Commons.Xml.Relaxng.dll</HintPath>
+		</Reference>
+		<Reference Include="cscompmgd">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\cscompmgd.dll</HintPath>
+		</Reference>
+		<Reference Include="CustomMarshalers">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\CustomMarshalers.dll</HintPath>
+		</Reference>
+		<Reference Include="GoogleMobileAds">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\GoogleMobileAds.dll</HintPath>
+		</Reference>
+		<Reference Include="I18N.CJK">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\I18N.CJK.dll</HintPath>
+		</Reference>
+		<Reference Include="I18N">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\I18N.dll</HintPath>
+		</Reference>
+		<Reference Include="I18N.MidEast">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\I18N.MidEast.dll</HintPath>
+		</Reference>
+		<Reference Include="I18N.Other">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\I18N.Other.dll</HintPath>
+		</Reference>
+		<Reference Include="I18N.Rare">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\I18N.Rare.dll</HintPath>
+		</Reference>
+		<Reference Include="I18N.West">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\I18N.West.dll</HintPath>
+		</Reference>
+		<Reference Include="IBM.Data.DB2">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\IBM.Data.DB2.dll</HintPath>
+		</Reference>
+		<Reference Include="Iced">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Iced.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppMono.Security">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Il2CppMono.Security.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2Cppmscorlib">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Configuration">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Il2CppSystem.Configuration.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Core">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Il2CppSystem.Core.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Il2CppSystem.dll</HintPath>
+		</Reference>
+		<Reference Include="Il2CppSystem.Xml">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Il2CppSystem.Xml.dll</HintPath>
+		</Reference>
+		<Reference Include="MeshBakerCore">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\MeshBakerCore.dll</HintPath>
+		</Reference>
+		<Reference Include="MeshExtension">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\MeshExtension.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.CSharp">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Microsoft.CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Web.Infrastructure">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Microsoft.Web.Infrastructure.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.CompilerServices.SymbolWriter">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Mono.CompilerServices.SymbolWriter.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.CSharp">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Mono.CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Data.Sqlite">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Mono.Data.Sqlite.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Data.Tds">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Mono.Data.Tds.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Messaging">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Mono.Messaging.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.Posix">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Mono.Posix.dll</HintPath>
+		</Reference>
+		<Reference Include="Mono.WebBrowser">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Mono.WebBrowser.dll</HintPath>
+		</Reference>
+		<Reference Include="Newtonsoft.Json">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Newtonsoft.Json.dll</HintPath>
+		</Reference>
+		<Reference Include="Novell.Directory.Ldap">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Novell.Directory.Ldap.dll</HintPath>
+		</Reference>
+		<Reference Include="Photon3Unity3D">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\Photon3Unity3D.dll</HintPath>
+		</Reference>
+		<Reference Include="SMDiagnostics">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\SMDiagnostics.dll</HintPath>
+		</Reference>
+		<Reference Include="UnhollowerBaseLib">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
+		</Reference>
+		<Reference Include="UnhollowerRuntimeLib">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnhollowerRuntimeLib.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AccessibilityModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AIModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.AIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AndroidJNIModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AnimationModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.AnimationModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ARModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.ARModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AssetBundleModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AudioModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.AudioModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClothModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.ClothModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClusterInputModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClusterRendererModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CrashReportingModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.DirectorModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.DirectorModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.DSPGraphModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.GameCenterModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.GridModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.GridModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.HotReloadModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.Il2CppAssetBundleManager">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.Il2CppAssetBundleManager.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.Il2CppImageConversionManager">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.Il2CppImageConversionManager.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ImageConversionModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.IMGUIModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.InputLegacyModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.InputModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.InputModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.JSONSerializeModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.LocalizationModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ParticleSystemModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PerformanceReportingModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.Physics2DModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PhysicsModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ProfilerModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ScreenCaptureModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SharedInternalsModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SpriteMaskModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SpriteShapeModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.StreamingModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.StreamingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SubstanceModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.SubsystemsModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TerrainModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.TerrainModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TerrainPhysicsModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TextCoreModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TextRenderingModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TilemapModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.TilemapModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.TLSModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.TLSModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UI">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UI.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UIElementsModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UIModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UIModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UmbraModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UmbraModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UNETModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UNETModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityAnalyticsModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityConnectModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityTestProtocolModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestAudioModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestTextureModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UnityWebRequestWWWModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VehiclesModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VFXModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.VFXModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VideoModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.VideoModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.VRModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.VRModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.WindModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.WindModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.XRModule">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\UnityEngine.XRModule.dll</HintPath>
+		</Reference>
+		<Reference Include="ValueTupleBridge">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\ValueTupleBridge.dll</HintPath>
+		</Reference>
+		<Reference Include="WindowsBase">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\Managed\WindowsBase.dll</HintPath>
+		</Reference>
+		<Reference Include="MelonLoader">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\MelonLoader.dll</HintPath>
+		</Reference>
+		<Reference Include="0Harmony">
+			<HintPath>C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\MelonLoader\0Harmony.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+
+	<PropertyGroup>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Core.cs" />
+	</ItemGroup>
+	
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="COPY &quot;$(TargetPath)&quot; &quot;C:\Users\Master\Downloads\Slendytubbies 3 Multiplayer (x64)\Mods&quot;" />
+	</Target>
+</Project>
